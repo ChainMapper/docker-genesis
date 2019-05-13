@@ -12,7 +12,7 @@ RUN wget https://download.libsodium.org/libsodium/releases/libsodium-1.0.16.tar.
 
 RUN	git clone $GIT_COIN_URL $GIT_COIN_NAME \
 	&& cd $GIT_COIN_NAME \
-	&& git checkout tags/v3.0.3 \
+	&& git checkout tags/v3.0.5 \
 	&& chmod +x autogen.sh \
 	&& chmod +x share/genbuild.sh \
 	&& chmod +x src/leveldb/build_detect_platform \
